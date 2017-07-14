@@ -9,6 +9,11 @@ public class Test
 {
     public static void main(String[] args)
     {
+        ass1();
+    }
+
+    private static void ass1()
+    {
         Scanner reader = new Scanner(System.in);
         int i =  Integer.valueOf(reader.nextLine());
         int test = 0;
