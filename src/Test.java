@@ -1,7 +1,23 @@
-package PACKAGE_NAME;
-
 /**
  * Created by boruch on 14/7/17.
  */
-public class Test {
+
+import java.util.*;
+
+
+public class Test
+{
+    public static void main(String[] args)
+    {
+        Scanner reader = new Scanner(System.in);
+        int i =  Integer.valueOf(reader.nextLine());
+        int test = 0;
+        while(test < i)
+        {
+            System.out.print("*");
+            test++;
+        }
+
+        System.out.println("");
+    }
 }
